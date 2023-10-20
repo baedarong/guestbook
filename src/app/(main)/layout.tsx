@@ -63,7 +63,7 @@ export default function MainLayout({
         </div>
       </header>
       <main className="border-t border-slate-200 lg:relative lg:mb-28 lg:ml-112 lg:border-t-0 xl:ml-120">
-        <WaveLayout className="absolute left-0 top-0 h-20 w-full" />
+        <div className="absolute left-0 top-0 h-20 w-full" />
         <div className="relative">{children}</div>
       </main>
       <footer className="border-t border-slate-200 bg-slate-50 py-10 pb-4 sm:py-16 sm:pb-32 lg:hidden">
